@@ -11,5 +11,6 @@ public class Main {
         byte[] hashbytes = GOST.hash(bytes);
         String result = Utils.convert(hashbytes);
         System.out.println("HASH: " + result);
+        System.out.println("SAMARA");
     }
 }
